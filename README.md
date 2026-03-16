@@ -1,8 +1,8 @@
-# Custom-Image-Classifier
+# :file_folder: Custom-Image-Classifier
 
 **Google Colab link here:** https://colab.research.google.com/drive/1vD9SRjAGEZdKrmweM2M-kkufKxSchLQV?usp=sharing
 
-# :memo: Guide Questions (Student Reflection & Explanation)
+# :memo: Guide Questions (Student Reflection & Explanation) :memo:
 
 **1. Dataset Preparation**
 
@@ -49,17 +49,27 @@ Dataset
 
 :bulb: **How did the number of images affect the model’s performance?**
 
+-The number of images affects the model’s performance because more images help the model learn better and recognize patterns more accurately. With too few images, the model may not perform well on new data.
+
 **4. Critical Thinking**
 
 :bulb: **What challenges did you encounter while using your own dataset?**
+
+-One challenge I encountered was having insufficient or unbalanced images for some classes, which made it harder for the model to learn. Another issue was errors in file formats or corrupted images, which caused problems when loading the dataset. Organizing the images properly and making sure they were all usable took extra time.
   
 :bulb: **How can data augmentation improve your model?**
+
+-Data augmentation helps the model by making more training images through small changes like flipping or rotating. This helps the model learn better and perform well on new images.
 
 **5. Application**
 
 :bulb: **Suggest a real-world application for your trained model.**
 
+-A real-world application of my trained model is automatically identifying different plant or lettuce varieties in farms or gardens. This can help farmers quickly sort plants, monitor crops, and detect healthy or unhealthy plants without manually checking each one.
+
 :bulb: **How can this system be integrated into a mobile or web application?**
+
+-This system can be integrated into a mobile or web application by deploying the trained model on a backend server or using a lightweight version like TensorFlow Lite for mobile devices. The app can allow users to upload or capture images, send them to the model, and receive predictions in real time. Additional features like history tracking, notifications, or suggestions can also be added to improve usability. This makes it practical for farmers, students, or hobbyists to quickly identify plants, monitor crops, or classify objects directly from their phone or computer.
 
 
 
