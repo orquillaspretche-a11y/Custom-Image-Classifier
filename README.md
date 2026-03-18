@@ -75,11 +75,24 @@ Dataset
 
 :black_circle: **Visualization & Overfitting**
 
+:bulb: **1. What signs indicated overfitting in your first model?**
+
+:bulb: **2. How did data augmentation affect validation accuracy?**
+
 :black_circle: **Model Improvement**
+
+:bulb: **3. What is the purpose of dropout layers?**
+
+:bulb: **4. Why does data augmentation improve generalization?**
 
 :black_circle: **Performance Comparison**
 
+:bulb: **5. Compare accuracy before and after improvements.**
+
+:bulb: **6. Which technique contributed most to improvement?**
+
 :black_circle: **Deployment & Application**
 
+:bulb: **7. Why is saving the model important?**
 
-
+:bulb: **8. How can this model be deployed in a real-world system?**
