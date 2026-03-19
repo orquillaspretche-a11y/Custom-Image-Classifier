@@ -83,7 +83,11 @@ Dataset
 
 :bulb: **3. What is the purpose of dropout layers?**
 
+-Dropout layers are used in neural networks to prevent overfitting and improve how well a model generalizes to new data.
+
 :bulb: **4. Why does data augmentation improve generalization?**
+
+-Data augmentation improves generalization because it exposes the model to a wider range of input variations, helping it learn features that remain consistent across different conditions instead of memorizing specific examples.
 
 :black_circle: **Performance Comparison**
 
@@ -95,4 +99,8 @@ Dataset
 
 :bulb: **7. Why is saving the model important?**
 
+-Saving the model ensures your trained system can be reused, shared, deployed, and improved without starting over.
+
 :bulb: **8. How can this model be deployed in a real-world system?**
+
+-A model is deployed by connecting it to an application (web, mobile, or system) so users can input data and get real-time predictions.
