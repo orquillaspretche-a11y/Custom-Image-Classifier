@@ -81,7 +81,7 @@ Dataset
 
 :bulb: **2. How did data augmentation affect validation accuracy?**
 
--The initial model achieved a validation accuracy of approximately 97%. After implementing data augmentation and dropout, the improved model achieved a validation accuracy of approximately 70.13% after 15 epochs. So, in this particular case, data augmentation (along with dropout) resulted in a lower validation accuracy compared to the initial model.  Models with augmentation and dropout require more training epochs to achieve better performance.
+-The initial model achieved a validation accuracy of approximately 97%. After implementing data augmentation and dropout, the improved model achieved a validation accuracy of approximately 70.13% after 15 epochs. So, in this particular case, data augmentation resulted in a lower validation accuracy compared to the initial model.  Models with augmentation and dropout require more training epochs to achieve better performance.
 
 :black_circle: **Model Improvement**
 
@@ -97,11 +97,11 @@ Dataset
 
 :bulb: **5. Compare accuracy before and after improvements.**
 
--Before the improvements, the initial model achieved a validation accuracy of approximately 97%. After implementing data augmentation and dropout and training for 15 epochs, the improved model achieved a validation accuracy of approximately 70.13%.  It's possible that the model requires more epochs of training.
+-Before the improvements, the initial model achieved a validation accuracy of approximately 97%. After implementing data augmentation and dropout and training for 15 epochs, the improved model achieved a validation accuracy of approximately 70.13%.
 
 :bulb: **6. Which technique contributed most to improvement?**
 
--Data augmentation and dropout are generally techniques used to improve model performance and reduce overfitting, in this particular case, the validation accuracy decreased from 97%  to 70.13%.
+-Data augmentation and dropout are generally techniques used to improve model performance and reduce overfitting, in this particular case, the validation accuracy decreased from 97%  to 70.13%. It's possible that the model requires more epochs of training.
 
 :black_circle: **Deployment & Application**
 
