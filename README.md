@@ -45,7 +45,7 @@ Dataset
 
 :bulb: **What accuracy did your model achieve?**
 
--The model achieved an accuracy of around ___% on the validation set. This shows that it was able to correctly classify most of the images and learned the important features needed to distinguish between the different classes.
+-The model achieved an accuracy of around 97% on the validation set. This shows that it was able to correctly classify most of the images and learned the important features needed to distinguish between the different classes.
 
 :bulb: **How did the number of images affect the model’s performance?**
 
