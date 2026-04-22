@@ -77,7 +77,11 @@ Dataset
 
 :bulb: **1. What signs indicated overfitting in your first model?**
 
+-As shown in Step 1 Plot Training vs Validation Accuracy and Loss, the training loss continued to decrease steadily, while the validation loss initially decreased but then started to plateau and even slightly increase after a certain number of epochs. This indicates the model was learning the training data very well but struggling to generalize to unseen validation data. While both training and validation accuracy were high, there was a noticeable gap where the training accuracy was consistently higher (around 98%) than the validation accuracy (around 96-97%). Although validation accuracy remained high, the divergence in loss was a clearer indicator that the model was starting to overfit the training data.
+
 :bulb: **2. How did data augmentation affect validation accuracy?**
+
+-After implementing data augmentation and dropout, the validation accuracy of the improved model approximately 62.9% was lower than the initial model's validation accuracy approximately 97%. It's important that data augmentation and dropout are powerful techniques for reducing overfitting and improving generalization, but they can sometimes slow down the learning process, especially in the initial epochs.  Models with augmentation and dropout require more training epochs to achieve better performance.
 
 :black_circle: **Model Improvement**
 
