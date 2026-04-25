@@ -1,4 +1,4 @@
-# :file_folder: Custom-Image-Classifier
+# :file_folder: LW3_Custom-Image-Classifier
 
 **Google Colab link here:** https://colab.research.google.com/drive/1vD9SRjAGEZdKrmweM2M-kkufKxSchLQV?usp=sharing
 
