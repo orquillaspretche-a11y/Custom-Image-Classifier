@@ -55,7 +55,7 @@ Dataset
 
 :bulb: **What challenges did you encounter while using your own dataset?**
 
--One challenge I encountered was having insufficient or unbalanced images for some classes, which made it harder for the model to learn. Another issue was errors in file formats or corrupted images, which caused problems when loading the dataset. Organizing the images properly and making sure they were all usable took extra time.
+-During the initial model training, the main challenge I encountered was overfitting.  I implemented data augmentation and added dropout layers to the model, which are techniques designed to reduce overfitting and improve the model's generalization capabilities.
   
 :bulb: **How can data augmentation improve your model?**
 
@@ -77,11 +77,11 @@ Dataset
 
 :bulb: **1. What signs indicated overfitting in your first model?**
 
--As shown in Step 1 Plot Training vs Validation Accuracy and Loss, the training loss continued to decrease steadily, while the validation loss initially decreased but then started to plateau and even slightly increase after a certain number of epochs. This indicates the model was learning the training data very well but struggling to generalize to unseen validation data. While both training and validation accuracy were high, there was a noticeable gap where the training accuracy was consistently higher (around 98%) than the validation accuracy (around 96-97%). Although validation accuracy remained high, the divergence in loss was a clearer indicator that the model was starting to overfit the training data.
+-In the first model, overfitting was indicated by a divergence between training and validation metrics. Specifically, the training accuracy continued to improve, while the validation accuracy plateaued or slightly decreased. Concurrently, the training loss steadily dropped, but the validation loss began to increase after an initial decrease, signaling that the model was memorizing the training data rather than generalizing effectively.
 
 :bulb: **2. How did data augmentation affect validation accuracy?**
 
--The initial model achieved a validation accuracy of approximately 97%. After implementing data augmentation and dropout, the improved model achieved a validation accuracy of approximately 70.13% after 15 epochs. So, in this particular case, data augmentation resulted in a lower validation accuracy compared to the initial model.  Models with augmentation and dropout require more training epochs to achieve better performance.
+-After implementing data augmentation and dropout, the validation accuracy of the model decreased. The initial model achieved a validation accuracy of 0.9684. The improved model, incorporating data augmentation and dropout layers, reached a validation accuracy of 0.7344 after 15 epochs. This decrease might be due to the regularization techniques, which aim to prevent overfitting but can sometimes lead to a slightly lower peak accuracy if applied too aggressively or if the original model was already robust on the validation set.
 
 :black_circle: **Model Improvement**
 
@@ -97,11 +97,11 @@ Dataset
 
 :bulb: **5. Compare accuracy before and after improvements.**
 
--Before the improvements, the initial model achieved a validation accuracy of approximately 97%. After implementing data augmentation and dropout and training for 15 epochs, the improved model achieved a validation accuracy of approximately 70.13%.
+-The validation accuracy of the model before improvements was 0.9684. After implementing data augmentation and dropout, the validation accuracy was 0.7344. While the original model achieved a higher validation accuracy, it also showed signs of overfitting. The improved model, with data augmentation and dropout, aims for better generalization, even if it results in a slightly lower peak validation accuracy on the specific validation set.
 
 :bulb: **6. Which technique contributed most to improvement?**
 
--Data augmentation and dropout are generally techniques used to improve model performance and reduce overfitting, in this particular case, the validation accuracy decreased from 97%  to 70.13%. It's possible that the model requires more epochs of training.
+-Data augmentation and dropout are generally techniques used to improve model performance and reduce overfitting. The validation accuracy of the improved model was 0.7344, which is lower than the initial model's accuracy of 0.9684. This suggests the goal was to improve generalization and mitigate overfitting, rather than achieve a higher peak validation accuracy.
 
 :black_circle: **Deployment & Application**
 
