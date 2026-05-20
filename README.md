@@ -2,6 +2,14 @@
 
 **Google Colab link here:** https://colab.research.google.com/drive/1vD9SRjAGEZdKrmweM2M-kkufKxSchLQV?usp=sharing
 
+**LW3_my1st_model_basic_cnn.keras** https://drive.google.com/file/d/1rX3YBR09hHj0Ku6Y2KWv7OFUNT1VYjoA/view?usp=sharing 
+
+**LW3_my_2nd_model_enhancement.keras** https://drive.google.com/file/d/1JH_oQLjvGaUpuKXg_LHbCIpe2SKcyiNl/view?usp=sharing
+
+**best_improved_custom_cnn.keras** https://drive.google.com/file/d/1F6Wz7-5uOKYw853Onp0K5BQWmObHiKoh/view?usp=sharing
+
+**LW3_custom_model_comparison_plot.png** https://drive.google.com/file/d/16bYDRjBbQsbn-FygKHjs1FNlcIXcRI_x/view?usp=sharing
+
 # :memo: Guide Questions (Student Reflection & Explanation) :memo:
 
 **1. Dataset Preparation**
